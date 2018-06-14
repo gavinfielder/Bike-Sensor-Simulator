@@ -14,3 +14,8 @@ that model the accelerometer and gyroscope readings.
 
 See Demo.m script for demo program.
 
+## Known Issues
+
+At the time of writing this simulator, I didn't know that gyroscopes measure angular velocity, not angular acceleration. Theoretically, if gyroscopes did measure angular acceleration, this simulator would be accurate, but as it stands, the gyro portion is completely wrong. 
+
+Last updated 11/20/2017
